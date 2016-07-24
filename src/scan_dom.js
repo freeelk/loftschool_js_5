@@ -11,7 +11,6 @@
  */
 
 function scanDOM() {
-    let ELEMENT_NODE_TYPE = 1;
 
     let accumulator = {
         nodeTypes : {},
