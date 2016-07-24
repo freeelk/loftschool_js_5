@@ -85,7 +85,7 @@ deleteTextNodes(container);
 //----scanDOM() test
 
 scanDOM();
-}).call(this,require("pBGvAp"),typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/fake_b5d73999.js","/")
+}).call(this,require("pBGvAp"),typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/fake_4b114b92.js","/")
 },{"./delete_text_nodes.js":1,"./delete_text_nodes_recurs.js":2,"./prepend.js":4,"./scan_dom":5,"buffer":7,"pBGvAp":9}],4:[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 "use strict";
@@ -122,7 +122,6 @@ module.exports = prepend;
  */
 
 function scanDOM() {
-    var ELEMENT_NODE_TYPE = 1;
 
     var accumulator = {
         nodeTypes: {},
